@@ -14,7 +14,7 @@ export default function RegisterDemo() {
     return (
         <div className="min-h-screen flex bg-[#F5E8D8">
 
-            {/* LEFT SIDE */}
+            { }
             <div className="hidden md:flex w-1/2 relative overflow-hidden">
 
                 <img
@@ -23,18 +23,18 @@ export default function RegisterDemo() {
                     className="absolute inset-0 w-full h-full object-cover"
                 />
 
-                {/* Brown Overlay */}
+                { }
                 <div className="absolute inset-0 bg-[#4E2A16]/65"></div>
 
-                {/* Left Content */}
+                { }
                 <div className="relative z-10 flex flex-col justify-between p-10 w-full">
 
-                    {/* Logo */}
+                    { }
                     <h1 className="text-white text-2xl font-bold tracking-wide">
-                        Focus<span className="text-[#C49A76">Flow.</span>
+                        Pulse<span className="text-[#C49A76">Works-AI</span>
                     </h1>
 
-                    {/* Bottom Content */}
+                    { }
                     <div className="mb-10 text-white">
 
                         <p className="text-[#C49A76] text-sm tracking-[4px] mb-4 font-medium">
@@ -62,15 +62,15 @@ export default function RegisterDemo() {
                 </div>
             </div>
 
-            {/* RIGHT SIDE */}
+            { }
             <div className="w-full md:w-1/2 min-h-screen flex items-center justify-center px-6 py-10 bg-[#F5E8D8">
 
                 <Card className="w-full max-w-md bg-transparent border-none shadow-none">
 
-                    {/* HEADER */}
+                    { }
                     <CardHeader className="space-y-3">
 
-                        {/* Mobile Logo */}
+                        { }
                         <div className="md:hidden mb-3">
                             <h1 className="text-2xl font-bold text-[#6E3511">
                                 Focus<span className="text-[#9B6A45">Flow.</span>
@@ -87,12 +87,12 @@ export default function RegisterDemo() {
 
                     </CardHeader>
 
-                    {/* FORM */}
+                    { }
                     <CardContent>
                         <form>
                             <div className="flex flex-col gap-5">
 
-                                {/* FULL NAME */}
+                                { }
                                 <div className="grid gap-2">
                                     <Label htmlFor="fullname" className="text-[#4E2A16">
                                         Full Name
@@ -107,7 +107,7 @@ export default function RegisterDemo() {
                                     />
                                 </div>
 
-                                {/* EMAIL */}
+                                { }
                                 <div className="grid gap-2">
                                     <Label htmlFor="email" className="text-[#4E2A16">
                                         Email
@@ -137,7 +137,7 @@ export default function RegisterDemo() {
                                     />
                                 </div>
 
-                                {/* CONFIRM PASSWORD */}
+                                { }
                                 <div className="grid gap-2">
                                     <Label htmlFor="confirmPassword" className="text-[#4E2A16">
                                         Confirm Password
@@ -152,7 +152,7 @@ export default function RegisterDemo() {
                                     />
                                 </div>
 
-                                {/* TERMS */}
+                                { }
                                 <div className="flex items-start gap-2">
                                     <input
                                         type="checkbox"
@@ -169,7 +169,7 @@ export default function RegisterDemo() {
                                     </Label>
                                 </div>
 
-                                {/* REGISTER BUTTON */}
+                                { }
                                 <Button
                                     type="submit"
                                     className="w-full h-12 rounded-xl bg-[#4E2A16] hover:bg-[#6E3511] text-[#F5E8D8] font-medium transition duration-300 shadow-md"
@@ -181,17 +181,17 @@ export default function RegisterDemo() {
                         </form>
                     </CardContent>
 
-                    {/* FOOTER */}
+                    { }
                     <CardFooter className="flex-col gap-3">
 
-                        {/* DIVIDER */}
+                        { }
                         <div className="flex items-center gap-4 w-full my-2">
                             <div className="flex-1 h-px bg-[#C49A76]/50"></div>
                             <span className="text-[#9B6A45] text-sm">or</span>
                             <div className="flex-1 h-px bg-[#C49A76]/50"></div>
                         </div>
 
-                        {/* GOOGLE SIGNUP */}
+                        { }
                         <Button
                             variant="outline"
                             className="w-full h-12 rounded-xl bg-[#FFFDF9] border-[#C49A76]/50 text-[#4E2A16] hover:bg-[#EAD5BF] hover:text-[#4E2A16] transition"
@@ -202,7 +202,7 @@ export default function RegisterDemo() {
                             Sign up with Google
                         </Button>
 
-                        {/* LOGIN LINK */}
+                        { }
                         <p className="text-sm text-[#9B6A45] mt-4">
                             Already have an account?{" "}
                             <a

@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import CardDemo from './components/ui/cardcom'
 import RegisterDemo from "./components/ui/registerpage";
+import Navbar from "./components/ui/landingpage";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <RegisterDemo />
       <CardDemo />
+      <Navbar />
     </>
   )
 }

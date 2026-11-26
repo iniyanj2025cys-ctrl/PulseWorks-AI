@@ -33,7 +33,7 @@ export default function CardDemo() {
 
                     {/* Logo */}
                     <h1 className="text-white text-2xl font-bold tracking-wide">
-                        Focus<span className="text-[#C49A76]">Flow.</span>
+                        Pulse<span className="text-[#C49A76]">Works-AI</span>
                     </h1>
 
                     {/* Bottom Text */}
