@@ -11,7 +11,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export default function CardDemo() {
+export default function CardDemo({ onSignup }) {
     return (
         <div className="min-h-screen flex bg-[#F5E8D8]">
 
@@ -203,8 +203,8 @@ export default function CardDemo() {
                         <p className="text-sm text-[#9B6A45] mt-5">
                             Don't have an account?{" "}
                             <a
-                                href="#"
-                                className="text-[#6E3511] font-semibold hover:text-[#4E2A16] hover:underline"
+                                onClick={onSignup}
+                                className="text-[#6E3511] font-semibold hover:text-[#4E2A16] hover:underline cursor-pointer"
                             >
                                 Create account
                             </a>

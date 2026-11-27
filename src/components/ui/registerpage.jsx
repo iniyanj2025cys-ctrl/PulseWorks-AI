@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-export default function RegisterDemo() {
+export default function RegisterDemo({ onLogin }) {
     return (
         <div className="min-h-screen flex bg-[#F5E8D8">
 
